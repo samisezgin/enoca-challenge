@@ -5,8 +5,8 @@
 
 ### Kullanılan Teknolojiler
 
-<a href="https://www.java.com/" target="_blank"><img src="images/java.svg" alt="Java" height="70" /></a><a href="https://spring.io" target="_blank"><img src="images/spring-logo.svg" alt="Java" height="50" /></a></a><a href="https://www.postgresql.org/" target="_blank"><img src="images/postgre-logo.svg" alt="Java" height="40" /></a>     <a href="https://www.docker.com/" target="_blank"><img src="images/docker.svg" alt="Java" height="50" /></a>
-<a href="https://www.mongodb.com" target="_blank"><a href="https://swagger.io/" target="_blank"><img src="images/swagger-logo.png" alt="Java" height="50" /></a>
+<a href="https://www.java.com/" target="_blank"><img src="demo/images/java.svg" alt="Java" height="70" /></a><a href="https://spring.io" target="_blank"><img src="demo/images/spring-logo.svg" alt="Spring" height="50" /></a></a><a href="https://www.postgresql.org/" target="_blank"><img src="demo/images/postgre-logo.svg" alt="postgresql" height="40" /></a>     <a href="https://www.docker.com/" target="_blank"><img src="demo/images/docker.svg" alt="docker" height="50" /></a>
+<a href="https://swagger.io/" target="_blank"><img src="demo/images/swagger-logo.png" alt="swagger" height="50" /></a>
 
 ### UML diagramı
 
