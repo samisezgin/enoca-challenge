@@ -1,0 +1,30 @@
+version: '2'
+
+services:  
+  app:
+    image: 'enoca-demo'
+    build:
+      context: .
+    container_name: enoca-demo
+    ports:
+        - "8091:8081"
+    depends_on:
+      - db
+    environment:
+       - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/enoca_demo_db
+       - SPRING_DATASOURCE_USERNAME=postgres
+       - SPRING_DATASOURCE_PASSWORD=postgres
+       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+       - SPRING_DATASOURCE_DRIVER_CLASS_NAME=org.postgresql.Driver
+          
+  db:
+    image: 'postgres:latest'
+    container_name: db
+    ports:
+        - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: enoca_demo_db
+    volumes:
+        - ./postgres-data/:/var/lib/postgresql/data/
