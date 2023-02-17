@@ -1,0 +1,3 @@
+FROM openjdk:17-alpine
+COPY target/demo-0.0.1-SNAPSHOT.jar enoca-demo.jar
+ENTRYPOINT ["java","-jar","/enoca-demo.jar"]
