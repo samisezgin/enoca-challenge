@@ -10,10 +10,10 @@
 
 ### UML diagramı
 
-<img src="images/demo-class-diagram.png" alt="uml-diagram"/>
+<img src="demo/images/demo-class-diagram.png" alt="uml-diagram"/>
 
 ### Proje Şeması
-<img src="images/application-schema.png" alt="app-schema"/>
+<img src="demo/images/application-schema.png" alt="app-schema"/>
 
 ### Nasıl çalıştırılır
 "/demo" klasörünün içindeyken komut satırından
@@ -33,8 +33,8 @@ YA DA
 docker compose -f docker-compose.yml up -d
 ```
 komutu ile proje docker container'ında çalıştırılabilir.
-<img src="images/docker-container.png" alt="docker-container"/>
-<img src="images/swagger-ui.png" alt="swagger-ui"/>
+<img src="demo/images/docker-container.png" alt="docker-container"/>
+<img src="demo/images/swagger-ui.png" alt="swagger-ui"/>
 
 
 ## Lisans
